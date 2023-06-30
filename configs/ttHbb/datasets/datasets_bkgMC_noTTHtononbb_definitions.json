@@ -1,0 +1,184 @@
+{
+   "THW":{
+        "sample": "THW",
+        "json_output"    : "datasets/THW_2018.json",
+        "files":[
+            { "das_names": ["/THW_ctcvcp_5f_Hincl_TuneCP5_13TeV_madgraph_pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v2/NANOAODSIM"],
+              "metadata": {
+                  "year":"2018",
+                  "isMC": true,
+		          "xsec":  0.01517,
+                  "part": "" 
+                  }
+            }
+        ]
+  },
+   "TTToSemiLeptonic":{
+        "sample": "TTToSemiLeptonic",
+        "json_output"    : "datasets/TTToSemiLeptonic_2018.json",
+        "files":[
+            { "das_names": ["/TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM"],
+              "metadata": {
+                  "year":"2018",
+                  "isMC": true,
+                  "xsec": 365.4574,
+                  "part": "" 
+                  }
+            }
+        ]
+  },
+   "TTTo2L2Nu":{
+        "sample": "TTTo2L2Nu",
+        "json_output"    : "datasets/TTTo2L2Nu_2018.json",
+        "files":[
+            { "das_names": ["/TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM"],
+              "metadata": {
+                  "year":"2018",
+                  "isMC": true,
+                  "xsec": 88.3419,
+                  "part": "" 
+                  }
+            }
+        ]
+  },
+   "TTToHadronic":{
+        "sample": "TTToHadronic",
+        "json_output"    : "datasets/TTToHadronic_2018.json",
+        "files":[
+            { "das_names": ["/TTToHadronic_TuneCP5_13TeV-powheg-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM"],
+              "metadata": {
+                  "year":"2018",
+                  "isMC": true,
+                  "xsec": 377.9607,
+                  "part": "" 
+                  }
+            }
+        ]
+  },
+   "TTZToQQ":{
+        "sample": "TTZToQQ",
+        "json_output"    : "datasets/TTZToQQ_2018.json",
+        "files":[
+            { "das_names": ["/TTZToQQ_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM"],
+              "metadata": {
+                  "year":"2018",
+                  "isMC": true,
+                  "xsec": 0.6012,
+                  "part": "" 
+                  }
+            }
+        ]
+  },
+   "TTZtoLLNuNu":{
+        "sample": "TTZtoLLNuNu",
+        "json_output"    : "datasets/TTZtoLLNuNu_2018.json",
+        "files":[
+            { "das_names": ["/TTZToLLNuNu_M-10_TuneCP5_13TeV-amcatnlo-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM"],
+              "metadata": {
+                  "year":"2018",
+                  "isMC": true,
+                  "xsec": 0.24,
+                  "part": "" 
+                  }
+            }
+        ]
+  },
+   "TTWJetsToQQ":{
+        "sample": "TTWJetsToQQ",
+        "json_output"    : "datasets/TTWJetsToQQ_2018.json",
+        "files":[
+            { "das_names": ["/TTWJetsToQQ_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM"],
+              "metadata": {
+                  "year":"2018",
+                  "isMC": true,
+                  "xsec": 0.3708,
+                  "part": "" 
+                  }
+            }
+        ]
+  },
+   "TTWJetsToLNu":{
+        "sample": "TTWJetsToLNu",
+        "json_output"    : "datasets/TTWJetsToLNu_2018.json",
+        "files":[
+            { "das_names": ["/TTWJetsToLNu_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM"],
+              "metadata": {
+                  "year":"2018",
+                  "isMC": true,
+                  "xsec": 0.22,
+                  "part": "" 
+                  }
+            }
+        ]
+  },
+   "TTGJets_1":{ 
+        "sample": "TTGJets_1",
+        "json_output"    : "datasets/TTGJets_1_2018.json",
+        "files":[
+            { "das_names": ["/TTGJets_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM"],
+              "metadata": {
+                  "year":"2018",
+                  "isMC": true,
+                  "xsec": 4.10,
+                  "part": "1" 
+                  }
+            }
+        ]
+  },
+   "TTGJets_2":{ 
+        "sample": "TTGJets_2",
+        "json_output"    : "datasets/TTGJets_2_2018.json",
+        "files":[
+            { "das_names": ["/TTGJets_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1_ext1-v1/NANOAODSIM"],
+              "metadata": {
+                  "year":"2018",
+                  "isMC": true,
+                  "xsec": 4.10,
+                  "part": "1" 
+                  }
+            }
+        ]
+  },
+   "WW":{
+        "sample": "WW",
+        "json_output"    : "datasets/WW_2018.json",
+        "files":[
+            { "das_names": ["/WW_TuneCP5_13TeV-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM"],
+              "metadata": {
+                  "year":"2018",
+                  "isMC": true,
+                  "xsec": 118.7,
+                  "part": "" 
+                  }
+            }
+        ]
+  },
+        "sample": "ZZ",
+        "json_output"    : "datasets/ZZ_2018.json",
+        "files":[
+            { "das_names": ["/ZZ_TuneCP5_13TeV-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM"],
+              "metadata": {
+                  "year":"2018",
+                  "isMC": true,
+                  "xsec": 15.8274,
+                  "part": "" 
+                  }
+            }
+        ]
+  },
+   "WZ":{
+        "sample": "WZ",
+        "json_output"    : "datasets/WZ_2018.json",
+        "files":[
+            { "das_names": ["/WZ_TuneCP5_13TeV-pythia8/RunIISummer20UL18NanoAODv9-106X_upgrade2018_realistic_v16_L1v1-v1/NANOAODSIM"],
+              "metadata": {
+                  "year":"2018",
+                  "isMC": true,
+                  "xsec": 65.5443,
+                  "part": "" 
+                  }
+            }
+        ]
+  }
+
+}
