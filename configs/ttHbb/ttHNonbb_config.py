@@ -31,19 +31,48 @@ parameters = defaults.merge_parameters_from_files(default_parameters,
 cfg = Configurator(
     parameters = parameters,
     datasets = {
-        "jsons": [f"{localdir}/datasets/backgrounds_MC_TTHtoNonbb_redirector.json"
-                    ],
+        "jsons": [f"{localdir}/datasets/DATA_SingleMuon.json",
+                  f"{localdir}/datasets/backgrounds_MC_TTHtoNonbb_redirector.json",
+                  f"{localdir}/datasets/THW_2018_redirector.json",
+                  f"{localdir}/datasets/TTToSemiLeptonic_2018_redirector.json",
+                  f"{localdir}/datasets/TTTo2L2Nu_2018_redirector.json",
+                  f"{localdir}/datasets/TTToHadronic_2018_redirector.json",
+                  f"{localdir}/datasets/TTZToQQ_2018_redirector.json",
+                  f"{localdir}/datasets/TTZtoLLNuNu_2018_redirector.json",
+                  f"{localdir}/datasets/TTWJetsToQQ_2018_redirector.json",
+                  f"{localdir}/datasets/TTWJetsToLNu_2018_redirector.json",
+                  f"{localdir}/datasets/TTGJets_1_2018_redirector.json",
+                  f"{localdir}/datasets/TTGJets_2_2018_redirector.json",
+                  f"{localdir}/datasets/WW_2018_redirector.json",
+                  f"{localdir}/datasets/ZZ_2018_redirector.json",
+                  f"{localdir}/datasets/WZ_2018_redirector.json"
+    ],
         "filter" : {
-            "samples": ["ttHToNonbb"],
+            "samples": ["DATA_SingleMuon",
+                        "ttHToNonbb",
+                        "THW",
+                        "TTToSemiLeptonic",
+                        "TTTo2L2Nu",
+                        "TTToHadronic",
+                        "TTZToQQ",
+                        "TTZtoLLNuNu",
+                        "TTWJetsToQQ",
+                        "TTWJetsToLNu",
+                        "TTGJets_1",
+                        "TTGJets_2",
+                        "WW",
+                        "WZ",
+                         "ZZ"
+],
             "samples_exclude" : [],
             "year": ["2018"]
         }
     },
 
     workflow = ttHbbBaseProcessor,
-    
+    #"DoubleEle","EleMu" JUST MUONS, NEED TO ADD ELECTRON DATA
     skim = [get_nObj_min(1, 200., "FatJet"),
-            get_HLTsel(primaryDatasets=["DoubleEle","EleMu","DoubleMu"])], 
+            get_HLTsel(primaryDatasets=["DoubleMu"])], 
     
     preselections = [dilepton_presel,
                      get_nObj_min(2,25,"LeptonGood")],
